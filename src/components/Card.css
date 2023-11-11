@@ -1,0 +1,145 @@
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 0 20px 0;
+
+    height: 350px;
+}
+
+.know-button{
+    padding: 10px 5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.id{
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > img{
+    width: 50%;
+}
+
+.type-tag{
+    margin-bottom: 20px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+}
+
+.info *{
+    margin: 0;
+}
+
+.info {
+    list-style: none;
+    margin: 0;
+}
+
+.info label{
+    display: block;
+}
+
+progress::-webkit-progress-bar{
+    height: 100px;
+    background-color: #EE4B2B;
+}
+
+.normal{
+    background-color: burlywood;
+}
+
+.fighting{
+    background-color: brown;
+}
+
+.flying{
+    background-color: blueviolet;
+}
+
+.poison{
+    background-color: green;
+}
+
+.ground{
+    background-color: darkolivegreen;
+}
+
+.rock{
+    background-color: cadetblue;
+}
+
+.bug{
+    background-color: gold;
+}
+
+.ghost{
+    background-color: cadetblue;
+}
+
+.steel{
+    background-color: darkgray;
+}
+
+.fire{
+    background-color: #EE4B2B;
+}
+
+.water{
+    background-color: lightblue;
+}
+
+.grass{
+    background-color: lightgreen;
+}
+
+.electric{
+    background-color: yellow;
+}
+
+.psychic{
+    background-color: blueviolet;
+}
+
+.ice{
+    background-color: aqua;
+}
+
+.dragon{
+    background-color: brown;
+}
+
+.dark{
+    background-color: darkgoldenrod;
+}
+
+.fairy{
+    background-color: aquamarine;
+}
+
+.unknow{
+    background-color: bisque;
+}
+
+.shadow{
+    background-color: purple;
+}

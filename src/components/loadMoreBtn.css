@@ -1,0 +1,13 @@
+.button-container{
+    padding: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-container > button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
